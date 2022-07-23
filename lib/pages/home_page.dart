@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final teamsList = _controller.teams;
+    
     return Scaffold(
       appBar: AppBar(
         title: Row(
@@ -43,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               );
             },
             icon: const Icon(Icons.search),
-          )
+          ),
         ],
       ),
       body: Padding(

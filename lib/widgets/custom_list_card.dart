@@ -17,21 +17,24 @@ class CustomListCard extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (_) => DetailsPage(team: team),
-              fullscreenDialog: true
+              fullscreenDialog: true,
             ),
           );
         },
         child: Container(
           height: 160,
           decoration: BoxDecoration(
-              color: Colors.black54, borderRadius: BorderRadius.circular(16)),
+            color: Colors.black54,
+            borderRadius: BorderRadius.circular(16),
+          ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               ClipRRect(
                 borderRadius: const BorderRadius.only(
-                    topLeft: Radius.circular(16),
-                    bottomLeft: Radius.circular(16)),
+                  topLeft: Radius.circular(16),
+                  bottomLeft: Radius.circular(16),
+                ),
                 child: Hero(
                   tag: team.id,
                   child: Padding(
@@ -60,14 +63,16 @@ class CustomListCard extends StatelessWidget {
                       Row(
                         children: [
                           const Icon(Icons.gamepad),
-                          const SizedBox(width: 8,),
+                          const SizedBox(
+                            width: 8,
+                          ),
                           Text("FIFA E-League ${team.location}"),
                         ],
                       ),
                     ],
                   ),
                 ),
-              )
+              ),
             ],
           ),
         ),

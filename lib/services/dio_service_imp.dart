@@ -10,10 +10,10 @@ class DioServiceImp implements DioService {
         baseUrl: 'https://api.pandascore.co/fifa/',
         headers: {
           'content-type': 'application/json;charset=utf-8',
-          'authorization': 'Bearer u6CWM_HVgtcXvejY5aXAZbmxt6eOVFeu3MRtm-ctCspN5ePw8tk'
-        }
-      )
+          'authorization':
+              'Bearer u6CWM_HVgtcXvejY5aXAZbmxt6eOVFeu3MRtm-ctCspN5ePw8tk',
+        },
+      ),
     );
   }
-
 }

@@ -13,6 +13,7 @@ class DetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
+    
     return Scaffold(
       appBar: AppBar(
         title: Text(team.name),
@@ -46,7 +47,7 @@ class DetailsPage extends StatelessWidget {
                 child: Text(
                   team.players.isNotEmpty ? 'Jogadores' : '',
                   style: const TextStyle(
-                      fontSize: 18, fontWeight: FontWeight.bold),
+                      fontSize: 18, fontWeight: FontWeight.bold,),
                 ),
               ),
               const SizedBox(height: 8),
@@ -55,6 +56,7 @@ class DetailsPage extends StatelessWidget {
                 shrinkWrap: true,
                 itemBuilder: ((_, index) {
                   var player = team.players[index];
+                  
                   return PlayerListTile(player: player);
                 }),
                 itemCount: team.players.length,

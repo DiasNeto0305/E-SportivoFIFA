@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.e_sportivo_fifa">
    <application
-        android:label="e_sportivo_fifa"
+        android:label="E-Sportivo FIFA"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

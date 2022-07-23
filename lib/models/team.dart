@@ -7,7 +7,7 @@ class Team {
     required this.location,
     required this.modifiedAt,
     required this.name,
-    required this.players
+    required this.players,
   });
   late final int id;
   late final String imageUrl;
@@ -15,8 +15,8 @@ class Team {
   late final String modifiedAt;
   late final String name;
   late final List<Player> players;
-  
-  Team.fromJson(Map<String, dynamic> json){
+
+  Team.fromJson(Map<String, dynamic> json) {
     List<Player> playersList = [];
     id = json['id'];
     imageUrl = json['image_url'];
@@ -38,6 +38,7 @@ class Team {
     _data['modified_at'] = modifiedAt;
     _data['name'] = name;
     _data['players'] = players;
+    
     return _data;
   }
 
@@ -59,7 +60,7 @@ class Team {
       imageUrl: imageUrl ?? this.imageUrl,
       location: location ?? this.location,
       modifiedAt: modifiedAt ?? this.modifiedAt,
-      name: name ?? this.name, 
+      name: name ?? this.name,
       players: players ?? this.players,
     );
   }

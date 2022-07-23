@@ -15,7 +15,7 @@ class CustomSearchDelegate extends SearchDelegate {
           query = '';
         },
         icon: const Icon(Icons.clear),
-      )
+      ),
     ];
   }
 
@@ -41,6 +41,7 @@ class CustomSearchDelegate extends SearchDelegate {
               ),
         )
         .toList();
+
     return CustomSearchListView(teams: filterList);
   }
 
@@ -53,12 +54,14 @@ class CustomSearchDelegate extends SearchDelegate {
               ),
         )
         .toList();
+
     return CustomSearchListView(teams: filterList);
   }
 
   @override
   ThemeData appBarTheme(BuildContext context) {
     final ThemeData theme = Theme.of(context);
+    
     return theme;
   }
 }

@@ -6,6 +6,7 @@ Aplicativo que apresenta informações sobre as equipes online de FIFA ao redor 
 - **Home Screen:** Tela inicial de Listagem das Equipes, traz o escudo, nome, e país da liga como principais informações.
 - **Search Screen:** Utilizando um Custom Search Delegate, a tela possui o mesmo widget de listagem das equipes, sendo neste caso, possível filtrá-las através de qualquer informação da equipe - Nome, Localização, Jogadores e etc.
 - **Details Screen:** Tela que, além das informações já trazidas na home screen, apresenta a lista de jogadores de cada equipe.
+- **Consumo da API PandaScore:** Os dados reais são fornecidos pelo site de estatísticas de e-games em tempo real PandaScore - https://pandascore.co/
 
 # Bibliotecas Utilizadas
 - Dio
@@ -20,7 +21,7 @@ Aplicativo que apresenta informações sobre as equipes online de FIFA ao redor 
 
 # Screenshots
 
-![WhatsApp Image 2022-07-22 at 11 27 32](https://user-images.githubusercontent.com/55294557/180582609-bc83bb8c-737f-4bdd-ba81-ec311a4180c1.jpeg)
-![WhatsApp Image 2022-07-22 at 11 27 33](https://user-images.githubusercontent.com/55294557/180582486-02b0ae2e-d2c2-4a1b-b3e9-8a6412ce623b.jpeg)
-![WhatsApp Image 2022-07-22 at 11 27 34](https://user-images.githubusercontent.com/55294557/180582488-ca987239-e301-456a-8a2b-11444aeec564.jpeg)
-![WhatsApp Image 2022-07-22 at 11 27 35](https://user-images.githubusercontent.com/55294557/180582490-68b6dbbd-b9a8-4004-8c0a-4a446e190e8e.jpeg)
+![Image (1)](https://user-images.githubusercontent.com/55294557/180583462-dbff2a1c-5127-4dec-ace2-8a05dfd9f001.jpg)
+![Image](https://user-images.githubusercontent.com/55294557/180583436-823b4dcc-92c4-4c6e-ad8f-63ebf9ef81ca.jpg)
+![Image (2)](https://user-images.githubusercontent.com/55294557/180583525-e3bf2d9d-a39a-4037-a675-c90da620b54f.jpg)
+![Image (3)](https://user-images.githubusercontent.com/55294557/180583543-68f7ac19-e733-4331-8781-209714e0bbc8.jpg)

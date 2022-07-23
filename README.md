@@ -12,6 +12,7 @@ Aplicativo que apresenta informações sobre as equipes online de FIFA ao redor 
 - Dio
 - Cached Network Image
 - Font Awesome Flutter
+- Dart Code Metrics
 - Intl
 
 # Organização de Código

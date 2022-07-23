@@ -1,16 +1,27 @@
-# e_sportivo_fifa
+# E-Sportivo FIFA
 
-A new Flutter project.
+Aplicativo que apresenta informações sobre as equipes online de FIFA ao redor do mundo
 
-## Getting Started
+# Features
+- **Home Screen:** Tela inicial de Listagem das Equipes, traz o escudo, nome, e país da liga como principais informações.
+- **Search Screen:** Utilizando um Custom Search Delegate, a tela possui o mesmo widget de listagem das equipes, sendo neste caso, possível filtrá-las através de qualquer informação da equipe - Nome, Localização, Jogadores e etc.
+- **Details Screen:** Tela que, além das informações já trazidas na home screen, apresenta a lista de jogadores de cada equipe.
+- **Consumo da API PandaScore:** Os dados reais são fornecidos pelo site de estatísticas de e-games em tempo real PandaScore - https://pandascore.co/
 
-This project is a starting point for a Flutter application.
+# Bibliotecas Utilizadas
+- Dio
+- Cached Network Image
+- Font Awesome Flutter
+- Intl
 
-A few resources to get you started if this is your first Flutter project:
+# Organização de Código
+- Arquitetura MVC
+- Repository Pattern
+- Princípios de Solid
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Image (1)](https://user-images.githubusercontent.com/55294557/180583462-dbff2a1c-5127-4dec-ace2-8a05dfd9f001.jpg)
+![Image](https://user-images.githubusercontent.com/55294557/180583436-823b4dcc-92c4-4c6e-ad8f-63ebf9ef81ca.jpg)
+![Image (2)](https://user-images.githubusercontent.com/55294557/180583525-e3bf2d9d-a39a-4037-a675-c90da620b54f.jpg)
+![Image (3)](https://user-images.githubusercontent.com/55294557/180583543-68f7ac19-e733-4331-8781-209714e0bbc8.jpg)
